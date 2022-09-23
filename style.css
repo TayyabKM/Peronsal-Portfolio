@@ -13,7 +13,7 @@
 
 .name-container{ 
     
-    font-family: 'Inter'; 
+    font-family: 'Inter', sans-serif; 
     font-weight: 600;
     font-size: 30px;
     min-width: 114px;
