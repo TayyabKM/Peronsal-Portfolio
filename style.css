@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 .container {
-  position: relative;
-  width: fit-content;
+  
+  width: 100%;
 }
 
 .headline-container { background: #fff; }
