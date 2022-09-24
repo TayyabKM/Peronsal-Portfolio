@@ -3,15 +3,15 @@
 
 
 
-.container{
+.container {
     position: relative;
     width: fit-content;
     height: 6715px;
 }
 
-.headline-container {background: #fff;}
+.headline-container { background: #fff; }
 
-.name-container{  
+.name-container { 
     font-family: 'Inter', sans-serif; 
     font-weight: 600;
     font-size: 30px;
@@ -60,7 +60,7 @@
     background-image: url(./Images/header-illsutration-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
-  } 
+  }  
 
   .description-title {
     font-family: 'Inter', sans-serif;
@@ -110,3 +110,7 @@
     height: 3283px;
     top: 708px;
   }
+
+
+
+  
