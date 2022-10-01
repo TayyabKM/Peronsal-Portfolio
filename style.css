@@ -267,11 +267,11 @@ span {
   gap: 58px;
   height: 3283px;
   background-image:
-      url(./Images/illustration-about-me-2-desktop.svg),
-      url(./Images/illustration-about-me-1-desktop.svg);
-      background-repeat: no-repeat;
-      background-position: 0 400px, top right;
-      background-size: 30%;
+    url(./Images/illustration-about-me-2-desktop.svg),
+    url(./Images/illustration-about-me-1-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 0 400px, top right;
+  background-size: 30%;
 }
 
 .about-box {
@@ -307,7 +307,6 @@ span {
 }
 
 .about-cta {
- 
   height: 69px;
   display: flex;
   flex-direction: row;
