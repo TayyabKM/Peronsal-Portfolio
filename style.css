@@ -2,14 +2,20 @@
 
 html {
   box-sizing: border-box;
+  margin: 0;
 }
 
-.container {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* .container {
   position: relative;
   height: 6715px;
   min-width: 375px;
   left: -17px;
-}
+} */
 
 .headline-container {
   background: #fff;
@@ -133,9 +139,7 @@ span {
   align-items: center;
   padding: 64px 24px;
   gap: 58px;
-  min-width: 379px;
   height: 3283px;
-  top: 708px;
 }
 
 .works-heading {
@@ -261,9 +265,13 @@ span {
   align-items: center;
   padding: 64px 24px;
   gap: 58px;
-  min-width: 379px;
   height: 3283px;
-  top: 708px;
+  background-image:
+      url(./Images/illustration-about-me-2-desktop.svg),
+      url(./Images/illustration-about-me-1-desktop.svg);
+      background-repeat: no-repeat;
+      background-position: 0 400px, top right;
+      background-size: 30%;
 }
 
 .about-box {
@@ -299,7 +307,7 @@ span {
 }
 
 .about-cta {
-  width: 305px;
+ 
   height: 69px;
   display: flex;
   flex-direction: row;
@@ -330,7 +338,6 @@ span {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  margin-right: 45px;
   margin-bottom: 20px;
   border: #fff;
 }
@@ -343,12 +350,10 @@ span {
 
 .boxes {
   display: grid;
-  min-width: 300px;
   justify-items: center;
   height: 500px;
-  background-image: url(./Images/Img-Plaholder-1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #ebf0ee;
+  border-radius: 8px;
 }
 
 .icon-logo {
@@ -356,7 +361,6 @@ span {
 }
 
 .topic {
-  width: 337px;
   height: 32px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
