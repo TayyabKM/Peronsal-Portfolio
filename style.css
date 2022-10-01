@@ -45,7 +45,6 @@ html {
   transition: all 0.8s;
 }
 
-
 .toolbar-container {
   display: flex;
   height: 48px;
@@ -55,7 +54,7 @@ html {
   align-items: center;
 }
 
-.name-container {
+.name-container1 {
   min-width: 114px;
   height: 48px;
   left: 12px;
