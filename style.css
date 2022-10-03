@@ -371,13 +371,14 @@ span {
 }
 
 .list-about {
-  display: flex;
+  /* display: flex;
   flex-flow: row wrap;
   gap: 8px;
-  list-style-type: none;
+  list-style-type: none; */
 }
 
 .list-tag {
+  float: left;
   align-items: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;
