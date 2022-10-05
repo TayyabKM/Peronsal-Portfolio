@@ -236,8 +236,6 @@ span {
   gap: 10px;
 }
 
-
-
 .project-button {
   display: flex;
   flex-direction: row;
@@ -261,13 +259,13 @@ span {
   border: #fff;
 }
 
-.project-button:hover{
-background-color:#36B37F ;
-box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+.project-button:hover {
+  background-color: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
-.project-button:focus{
- background-color:#008552 ; 
+.project-button:focus {
+  background-color: #008552;
 }
 
 .about-page {
@@ -352,13 +350,13 @@ box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
   border: #fff;
 }
 
-.about-button:hover{
-  background-color:#36B37F ;
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24); 
+.about-button:hover {
+  background-color: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
-.about-button:focus{
-  background-color:#008552 ;   
+.about-button:focus {
+  background-color: #008552;
 }
 
 .about-card-box {
@@ -526,7 +524,7 @@ form {
 }
 
 .button-submit:focus {
-  background-color:#008552 ; 
+  background-color: #008552;
 }
 
 .my-email {
