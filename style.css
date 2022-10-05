@@ -236,6 +236,8 @@ span {
   gap: 10px;
 }
 
+
+
 .project-button {
   display: flex;
   flex-direction: row;
@@ -257,6 +259,15 @@ span {
   margin-right: 45px;
   margin-bottom: 20px;
   border: #fff;
+}
+
+.project-button:hover{
+background-color:#36B37F ;
+box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.project-button:focus{
+ background-color:#008552 ; 
 }
 
 .about-page {
@@ -339,6 +350,15 @@ span {
   line-height: 24px;
   margin-bottom: 20px;
   border: #fff;
+}
+
+.about-button:hover{
+  background-color:#36B37F ;
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24); 
+}
+
+.about-button:focus{
+  background-color:#008552 ;   
 }
 
 .about-card-box {
@@ -506,9 +526,7 @@ form {
 }
 
 .button-submit:focus {
-  opacity: 0.5;
-  cursor: pointer;
-  background-color: #398c6a;
+  background-color:#008552 ; 
 }
 
 .my-email {
