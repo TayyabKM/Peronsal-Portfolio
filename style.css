@@ -479,15 +479,6 @@ form {
   line-height: 24px;
 }
 
-.my-email {
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-}
-
 @keyframes bounce {
   0%,
   20%,
@@ -510,4 +501,21 @@ form {
 
 .button-submit:hover {
   animation: bounce 1s;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+ .button-submit:focus{
+  opacity:0.5;
+  cursor:pointer;
+  background-color: #398c6a;
+ }
+
+
+.my-email {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
 }
