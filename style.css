@@ -511,3 +511,5 @@ form {
 .button-submit:hover {
   animation: bounce 1s;
 }
+
+.button-submit:focus
