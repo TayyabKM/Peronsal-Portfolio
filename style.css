@@ -519,7 +519,6 @@ form {
 
 .button-submit:hover {
   animation: bounce 1s;
-
   cursor: pointer;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
