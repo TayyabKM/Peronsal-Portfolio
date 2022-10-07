@@ -100,6 +100,12 @@ span { color: #36b37f; }
 
 .social-media-3 { display: none; }
 
+.scroll-down{
+border-radius: 50%;
+box-shadow: 0 0 50px #ccc
+
+}
+
 .menu-list {
   display: flex;
   flex-direction: column;
@@ -509,6 +515,7 @@ textarea { resize: none; }
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
+  color:#42526E ;
 }
 
 @media screen and (min-width: 768px) {
