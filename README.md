@@ -6,6 +6,10 @@
 - html
 - css
 
+# Online Version (Link)
+https://tayyabkm.github.io/Peronsal-Portfolio/
+
+
 # Authors
 - GitHub: @TayyabKM
 - Twitter: @TayyabI83126361
