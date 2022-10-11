@@ -1,10 +1,11 @@
 # Portfolio-Setup-and-Mobile-first
 
 # Portfolio (Mobile and Desktop)
->  All changes were successful as linters errors were all fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version and desktop version. Media queries were added in order to make the design responsive and animations were also added to certain buttons.
+>  All changes were successful as linters errors were all fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version and desktop version. Media queries were added in order to make the design responsive and animations were also added to certain buttons. Web accessibility checks were completed using the WAVE chrome extension.
 # Built With
 - html
 - css
+
 
 # Online Version (Link)
 https://tayyabkm.github.io/Peronsal-Portfolio/
@@ -18,6 +19,8 @@ https://tayyabkm.github.io/Peronsal-Portfolio/
 - Visual Studio Code
 - GitBash
 - Github
+- WAVE chrome extension
+
 # Instuctions to set up project locally
 - Download zip file of the project
 - Extract folder to the hard drive
