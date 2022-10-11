@@ -32,6 +32,10 @@ Give a ⭐️ if you like this project!
 
 # Acknowledgments
 Microverse
+- Yash
+- GitHub: [Yash](https://github.com/yash244466666)
+- LinkedIn: [Yash Solo](https://www.linkedin.com/in/yash-solo)
+- Twitter: [Yash Solo](https://twitter.com/yash_solo000)
 ##Licence
 
 This project is MIT licensed.
