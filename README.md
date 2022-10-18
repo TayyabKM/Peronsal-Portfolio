@@ -1,10 +1,11 @@
-# Portfolio-Setup-and-Mobile-first
+# Personal Portfolio
 
-# Portfolio (Mobile and Desktop)
->  All changes were successful as linters errors were all fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version and desktop version. Media queries were added in order to make the design responsive and animations were also added to certain buttons.
+# Hamburger Menu Functionality
+>  A new Javascript linter file was added and all changes were successful as linters errors were fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version and desktop version for the personal portfolio. The current project uses Javascript to manipulate the hamburger menu icon and easily navigate through the site of the mobile version.
 # Built With
 - html
 - css
+- Javascript
 
 # Online Version (Link)
 https://tayyabkm.github.io/Peronsal-Portfolio/
