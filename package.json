@@ -209,7 +209,11 @@
     "zwitch": "^1.0.5"
   },
   "devDependencies": {
-    "hint": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^7.1.2",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
@@ -220,13 +224,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TayyabKM/Peronsal-Portfolio"
+    "url": "git+https://github.com/keebot-png/mobile_project.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TayyabKM/Peronsal-Portfolio/issues"
+    "url": "https://github.com/keebot-png/mobile_project/issues"
   },
-  "homepage": "https://github.com/TayyabKM/Peronsal-Portfolio#readme"
+  "homepage": "https://github.com/keebot-png/mobile_project#readme"
 }
