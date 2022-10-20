@@ -224,13 +224,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keebot-png/mobile_project.git"
+    "url": "git+https://github.com/TayyabKM/Peronsal-Portfolio"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/keebot-png/mobile_project/issues"
+    "url": "https://github.com/TayyabKM/Peronsal-Portfolio/issues"
   },
-  "homepage": "https://github.com/keebot-png/mobile_project#readme"
+  "homepage": "https://github.com/TayyabKM/Peronsal-Portfolio/tree/main#readme"
 }
