@@ -1,7 +1,12 @@
 # Personal Portfolio
 
+
 # Pop up menu task
 >  A new Javascript linter file was added and all changes were successful as linters errors were fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version and desktop version for the personal portfolio. The current project involves entering the markup for display cards and the modal dynamically through Javascript. Also event listeners were included to add functionality to the respective buttons.
+=======
+# Local Storage Project
+>  A new Javascript linter file was added and all changes were successful as linters errors were fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version and desktop version for the personal portfolio. The current project involves entering the markup for display cards and the modal dynamically through Javascript. Also event listeners were included to add functionality to the respective buttons. Lastly, validation code was added to JavaScript to check for lowercase letters in the email form and an error will display until the action has been completed. Also JavaScript functionality is created to enable data to be added to the local storage, which is then submitted, and then pre-filled in the contact form when the user loads the page.
+
 # Built With
 - html
 - css

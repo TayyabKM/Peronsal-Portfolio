@@ -594,7 +594,10 @@ textarea { resize: none; }
   display: none;
   justify-content: center;
   align-items: flex-start;
+
   
+=======
+
 }
 
 .modal.modal-show {
@@ -784,6 +787,19 @@ textarea { resize: none; }
   font-size: 16px;
   line-height: 30px;
   flex-wrap: wrap;
+
+=======
+}
+
+/* email validation text */
+
+.label {
+  font-family: "Inter", sans-serif;
+  color: #d30505;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+
 }
 
 @media screen and (min-width: 768px) {
