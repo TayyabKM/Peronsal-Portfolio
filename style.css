@@ -594,7 +594,6 @@ textarea { resize: none; }
   display: none;
   justify-content: center;
   align-items: flex-start;
-=======
 }
 
 .modal.modal-show {
@@ -784,7 +783,6 @@ textarea { resize: none; }
   font-size: 16px;
   line-height: 30px;
   flex-wrap: wrap;
-=======
 }
 
 /* email validation text */
