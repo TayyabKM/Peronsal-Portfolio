@@ -213,7 +213,7 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.26.0",
-    "hint": "^7.1.2",
+    "hint": "^7.1.3",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
@@ -232,9 +232,5 @@
   "bugs": {
     "url": "https://github.com/TayyabKM/Peronsal-Portfolio/issues"
   },
-
   "homepage": "https://github.com/TayyabKM/Peronsal-Portfolio#readme"
-=======
-  "homepage": "https://github.com/TayyabKM/Peronsal-Portfolio/tree/main#readme"
-
 }

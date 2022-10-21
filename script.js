@@ -204,9 +204,6 @@ for (let i = 3; i < popData.length; i += 1) {
   </div>
 </div>
   `;
-
-}
-=======
 }
 
 const formSubmit = document.querySelector('.button-submit-1');
@@ -273,4 +270,3 @@ document.querySelectorAll('input').forEach((input) => {
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 });
-
