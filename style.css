@@ -594,10 +594,7 @@ textarea { resize: none; }
   display: none;
   justify-content: center;
   align-items: flex-start;
-
-  
 =======
-
 }
 
 .modal.modal-show {
@@ -787,7 +784,6 @@ textarea { resize: none; }
   font-size: 16px;
   line-height: 30px;
   flex-wrap: wrap;
-
 =======
 }
 
@@ -799,7 +795,6 @@ textarea { resize: none; }
   font-style: normal;
   font-weight: 500;
   font-size: 21px;
-
 }
 
 @media screen and (min-width: 768px) {
