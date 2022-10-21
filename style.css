@@ -594,6 +594,7 @@ textarea { resize: none; }
   display: none;
   justify-content: center;
   align-items: flex-start;
+  
 }
 
 .modal.modal-show {
