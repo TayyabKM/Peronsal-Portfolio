@@ -28,62 +28,74 @@ const popData = [
   {
     classNO: 'n1',
     Subtitle: 'Keeping track of \nhundreds of components',
+    cardTitle: 'Multi-Post Stories <br>Gain+Glory',
     Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
     Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     githubIcon: './images/github-log.svg',
     liveIcon: './images/live-icon.svg',
     ProjectLink: 'https://tayyabkm.github.io/Peronsal-Portfolio/',
     GitHubLink: 'https://github.com/TayyabKM/Peronsal-Portfolio',
+    projectButton: 'See Project'
   },
   {
     classNO: 'n2',
     Subtitle: 'Keeping track of \nhundreds of components',
+    cardTitle: 'Multi-Post Stories <br>Gain+Glory',
     Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
     Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     githubIcon: './images/github-log.svg',
     liveIcon: './images/live-icon.svg',
     ProjectLink: 'https://tayyabkm.github.io/Peronsal-Portfolio/',
     GitHubLink: 'https://github.com/TayyabKM/Peronsal-Portfolio',
+    projectButton: 'See Project'
   },
   {
     classNO: 'n3',
     Subtitle: 'Keeping track of \nhundreds of components',
+    cardTitle: 'Multi-Post Stories <br>Gain+Glory',
     Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
     Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     githubIcon: './images/github-log.svg',
     liveIcon: './images/live-icon.svg',
     ProjectLink: 'https://tayyabkm.github.io/Peronsal-Portfolio/',
     GitHubLink: 'https://github.com/TayyabKM/Peronsal-Portfolio',
+    projectButton: 'See Project'
   },
   {
     classNO: 'n4',
     Subtitle: 'Keeping track of \nhundreds of components',
+    cardTitle: 'Multi-Post Stories <br>Gain+Glory',
     Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
     Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     githubIcon: './images/github-log.svg',
     liveIcon: './images/live-icon.svg',
     ProjectLink: 'https://tayyabkm.github.io/Peronsal-Portfolio/',
     GitHubLink: 'https://github.com/TayyabKM/Peronsal-Portfolio',
+    projectButton: 'See Project'
   },
   {
     classNO: 'n5',
     Subtitle: 'Keeping track of \nhundreds of components',
+    cardTitle: 'Multi-Post Stories <br>Gain+Glory',
     Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
     Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     githubIcon: './images/github-log.svg',
     liveIcon: './images/live-icon.svg',
     ProjectLink: 'https://tayyabkm.github.io/Peronsal-Portfolio/',
     GitHubLink: 'https://github.com/TayyabKM/Peronsal-Portfolio',
+    projectButton: 'See Project'
   },
   {
     classNO: 'n6',
     Subtitle: 'Keeping track of \nhundreds of components',
+    cardTitle: 'Multi-Post Stories <br>Gain+Glory',
     Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
     Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     githubIcon: './images/github-log.svg',
     liveIcon: './images/live-icon.svg',
     ProjectLink: 'https://tayyabkm.github.io/Peronsal-Portfolio/',
     GitHubLink: 'https://github.com/TayyabKM/Peronsal-Portfolio',
+    projectButton: 'See Project'
   },
 ];
 
@@ -154,21 +166,17 @@ for (let i = 0; i < 3; i += 1) {
   <div class="works-text">
       <div class="works-title">
           <h3>
-          Multi-Post Stories<br>
-          Gain+Glory
+          ${popData[i].cardTitle}
           </h3>
       </div>
       <div class="works-tags">
           <ul class="tags">
-              <li class="tech-tag">Ruby on Rails</li>
-              <li class="tech-tag">CSS</li>
-              <li class="tech-tag">Javascript</li>
-              <li class="tech-tag">HTML</li>
+          ${popData[i].Technologies.map((id) => `<li class="tech-tag">${id}</>`)}
           </ul>
       </div>
       <div class="works-cta">
           <button type="submit" class="project-button" onclick="modalSection(${i})">
-              See Project
+              ${popData[i].projectButton}
           </button>
       </div>
   </div>
@@ -184,21 +192,17 @@ for (let i = 3; i < popData.length; i += 1) {
   <div class="works-text">
       <div class="works-title">
           <h3>
-          Multi-Post Stories<br>
-          Gain+Glory
+          ${popData[i].cardTitle}
           </h3>
       </div>
       <div class="works-tags">
           <ul class="tags">
-              <li class="tech-tag">Ruby on Rails</li>
-              <li class="tech-tag">CSS</li>
-              <li class="tech-tag">Javascript</li>
-              <li class="tech-tag">HTML</li>
+          ${popData[i].Technologies.map((id) => `<li class="tech-tag">${id}</>`)}
           </ul>
       </div>
       <div class="works-cta">
           <button type="submit" class="project-button" onclick="modalSection(${i})">
-              See Project
+          ${popData[i].projectButton}
           </button>
       </div>
   </div>
